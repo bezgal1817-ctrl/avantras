@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Цены на услуги — Avantras</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header scrolled" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">AVANTRAS</a>
+
+    <nav class="nav" id="navMenu">
+      <a href="index.html">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="cases.html">Кейсы</a>
+      <a href="contacts.html">Контакты</a>
+
+      <div class="mobile-contacts">
+        <a href="tel:+79130059487"><img src="flickoplay (11).png" alt="" class="icon-img"> +7 913 005-94-87</a>
+        <a href="https://wa.me/79130059487" target="_blank"><img src="11.png" alt="" class="icon-img"> WhatsApp</a>
+        <a href="https://t.me/DanilGlch" target="_blank"><img src="10.png" alt="" class="icon-img"> Telegram</a>
+        <form class="nav-mini-form" id="navMiniForm">
+          <p class="nav-mini-title">Оставить заявку</p>
+          <input type="tel" class="nav-mini-input" name="phone" placeholder="+7 900 000-00-00" required />
+          <button type="submit" class="nav-mini-btn">Перезвоните мне</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+79130059487" class="header-icon phone" aria-label="Позвонить"><img src="flickoplay (11).png" alt="" class="icon-img"></a>
+      <a href="https://wa.me/79130059487" target="_blank" class="header-icon wa" aria-label="WhatsApp"><img src="11.png" alt="" class="icon-img"></a>
+      <a href="https://t.me/DanilGlch" target="_blank" class="header-icon tg" aria-label="Telegram"><img src="10.png" alt="" class="icon-img"></a>
+      <a href="contacts.html" class="header-btn desktop-btn">Обсудить проект</a>
+
+      <a href="tel:+79130059487" class="mobile-call" aria-label="Позвонить"><img src="flickoplay (11).png" alt="" class="icon-img"></a>
+      <button class="burger" id="burgerBtn" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="section page-hero">
+    <div class="container">
+      <div class="reveal active">
+        <div class="eyebrow"><span class="eyebrow-dot"></span>ЦЕНЫ НА УСЛУГИ</div>
+        <h1 style="font-family:'Bebas Neue',sans-serif; font-size:clamp(52px,7vw,96px); line-height:0.95; max-width:720px; margin-bottom:20px; letter-spacing:1px;">
+          Разработка сайтов под ключ
+        </h1>
+        <p style="font-size:17.5px; color:#4b5563; max-width:560px; line-height:1.75; font-weight:500; margin-bottom:36px;">
+          Прозрачные тарифы. Сначала результат — потом оплата. Без скрытых платежей.
+        </p>
+        <div class="pricing-nav">
+          <a href="#landing" class="pricing-nav-btn">Лендинг</a>
+          <a href="#multipage" class="pricing-nav-btn">Многостраничный</a>
+          <a href="#shop" class="pricing-nav-btn">Интернет-магазин</a>
+          <a href="#corporate" class="pricing-nav-btn">Корпоративный</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 01 ЛЕНДИНГ ─────────────────────────────────────── -->
+  <section class="section" id="landing">
+    <div class="container">
+
+      <div class="pricing-section-head reveal">
+        <div class="pricing-section-label">01</div>
+        <h2>Лендинг <span class="accent-word">/ Landing Page</span></h2>
+        <p>Одностраничный сайт для продвижения товара или услуги. Современный дизайн, адаптация под мобильные, подключение заявок.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">START</div>
+          <div class="pricing-price">13 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Современный лендинг под ваш бизнес</li>
+            <li>Адаптация под телефон и ПК</li>
+            <li>Помощь с текстами</li>
+            <li>Сильная структура под клиентов</li>
+            <li>Премиальный дизайн</li>
+            <li>WhatsApp / Telegram</li>
+            <li>Подключение заявок</li>
+            <li>Meta Pixel / GA4</li>
+            <li>Базовые SEO-настройки</li>
+            <li>Бесплатные мелкие правки после запуска</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">★ Самый популярный</div>
+          <div class="pricing-tier">BUSINESS</div>
+          <div class="pricing-price">17 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из START</li>
+            <li>3 месяца бесплатных правок</li>
+            <li>Приоритетные правки (быстрее очередь)</li>
+            <li>До 2 новых блоков / секций бесплатно</li>
+            <li>Помощь с оффером и упаковкой бизнеса</li>
+            <li>Консультация по структуре и конверсии</li>
+          </ul>
+          <a href="contacts.html" class="btn primary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">BUSINESS+</div>
+          <div class="pricing-price">21 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из BUSINESS</li>
+            <li>6 месяцев бесплатных правок</li>
+            <li>Приоритет 24–48 часов</li>
+            <li>1 обновление сайта в месяц</li>
+            <li>Новые блоки бесплатно при необходимости</li>
+            <li>Помощь с улучшением конверсии сайта</li>
+            <li>Полное сопровождение после запуска</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 02 МНОГОСТРАНИЧНЫЙ ──────────────────────────────── -->
+  <section class="section soft" id="multipage">
+    <div class="container">
+
+      <div class="pricing-section-head reveal">
+        <div class="pricing-section-label">02</div>
+        <h2>Многостраничный <span class="accent-word">сайт</span></h2>
+        <p>5–7 страниц. Подходит для услуг, компаний и студий. Продуманная структура каждой страницы под заявки и доверие.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">START</div>
+          <div class="pricing-price">23 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>До 5–7 страниц сайта</li>
+            <li>Современный дизайн</li>
+            <li>Адаптация под телефон и ПК</li>
+            <li>Помощь с текстами</li>
+            <li>Сильная структура под клиентов</li>
+            <li>WhatsApp / Telegram</li>
+            <li>Формы заявок</li>
+            <li>Meta Pixel / GA4</li>
+            <li>Базовые SEO-настройки</li>
+            <li>Бесплатные мелкие правки после запуска</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">★ Самый популярный</div>
+          <div class="pricing-tier">BUSINESS</div>
+          <div class="pricing-price">29 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из START</li>
+            <li>3 месяца бесплатных правок</li>
+            <li>Приоритетные правки</li>
+            <li>До 3 новых блоков бесплатно</li>
+            <li>Помощь с упаковкой компании</li>
+            <li>Улучшенная структура страниц под доверие и заявки</li>
+            <li>Консультация по конверсии</li>
+          </ul>
+          <a href="contacts.html" class="btn primary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">BUSINESS+</div>
+          <div class="pricing-price">36 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из BUSINESS</li>
+            <li>6 месяцев бесплатных правок</li>
+            <li>Приоритет 24–48 часов</li>
+            <li>1 обновление сайта в месяц</li>
+            <li>Новые блоки бесплатно</li>
+            <li>Полное сопровождение после запуска</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 03 ИНТЕРНЕТ-МАГАЗИН ────────────────────────────── -->
+  <section class="section" id="shop">
+    <div class="container">
+
+      <div class="pricing-section-head reveal">
+        <div class="pricing-section-label">03</div>
+        <h2>Интернет-магазин</h2>
+        <p>Каталог, карточки товаров, корзина, оплата и оформление заказа. Полный цикл под ключ.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">START</div>
+          <div class="pricing-price">37 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Интернет-магазин под ключ</li>
+            <li>До 30 товаров (дальше — пакетно)</li>
+            <li>Настройка каталога</li>
+            <li>Корзина и оформление заказа</li>
+            <li>Подключение оплаты</li>
+            <li>Адаптация под телефон</li>
+            <li>Помощь с текстами</li>
+            <li>Meta Pixel / GA4</li>
+            <li>Базовое SEO</li>
+            <li>WhatsApp / Telegram</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">★ Самый популярный</div>
+          <div class="pricing-tier">BUSINESS</div>
+          <div class="pricing-price">42 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из START</li>
+            <li>3 месяца правок бесплатно</li>
+            <li>Помощь с упаковкой товаров</li>
+            <li>Настройка upsell / cross-sell блоков</li>
+            <li>Базовая оптимизация конверсии</li>
+            <li>До 5 новых секций бесплатно</li>
+          </ul>
+          <a href="contacts.html" class="btn primary">Выбрать тариф</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">BUSINESS+</div>
+          <div class="pricing-price">49 900 <span>₽</span></div>
+          <div class="pricing-from">разовый платёж</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из BUSINESS</li>
+            <li>6 месяцев правок</li>
+            <li>Приоритетные задачи</li>
+            <li>Ежемесячные обновления</li>
+            <li>Улучшение конверсии магазина</li>
+            <li>Полное сопровождение запуска</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Выбрать тариф</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 04 КОРПОРАТИВНЫЙ ───────────────────────────────── -->
+  <section class="section soft" id="corporate">
+    <div class="container">
+
+      <div class="pricing-section-head reveal">
+        <div class="pricing-section-label">04</div>
+        <h2>Корпоративный <span class="accent-word">сайт</span></h2>
+        <p>Много страниц, сложная логика, формы, интеграции. 15–20 страниц с индивидуальным дизайном под вашу компанию.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">START</div>
+          <div class="pricing-price" style="font-size:clamp(28px,3vw,42px);">от 59 900 <span>₽</span></div>
+          <div class="pricing-from">финальная цена после брифа</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Корпоративный сайт под ключ</li>
+            <li>До 15–20 страниц</li>
+            <li>Индивидуальный дизайн</li>
+            <li>Сложная структура сайта</li>
+            <li>Формы, интеграции, заявки</li>
+            <li>SEO-база</li>
+            <li>Analytics setup</li>
+            <li>Адаптация под все устройства</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Обсудить проект</a>
+        </div>
+
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">★ Самый популярный</div>
+          <div class="pricing-tier">BUSINESS</div>
+          <div class="pricing-price" style="font-size:clamp(28px,3vw,42px);">от 69 900 <span>₽</span></div>
+          <div class="pricing-from">финальная цена после брифа</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из START</li>
+            <li>3 месяца сопровождения</li>
+            <li>Приоритетная поддержка</li>
+            <li>Дополнительные страницы</li>
+            <li>Улучшение UX и конверсии</li>
+            <li>Помощь с упаковкой компании</li>
+          </ul>
+          <a href="contacts.html" class="btn primary">Обсудить проект</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">BUSINESS+</div>
+          <div class="pricing-price" style="font-size:clamp(28px,3vw,42px);">от 89 900 <span>₽</span></div>
+          <div class="pricing-from">финальная цена после брифа</div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li>Всё из BUSINESS</li>
+            <li>6 месяцев сопровождения</li>
+            <li>Постоянные улучшения</li>
+            <li>Приоритет 24–48 часов</li>
+            <li>Полная поддержка проекта</li>
+          </ul>
+          <a href="contacts.html" class="btn secondary">Обсудить проект</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ────────────────────────────────────────────── -->
+  <section class="section contact">
+    <div class="container contact-inner reveal">
+      <div>
+        <span class="eyebrow"><span class="eyebrow-dot"></span>НАЧАТЬ</span>
+        <h2>Обсудим ваш проект?</h2>
+        <p>Позвоните или напишите в Telegram / WhatsApp. Предложим решение и скажем точную цену.</p>
+      </div>
+      <div class="contact-card">
+        <a href="tel:+79130059487"><img src="flickoplay (11).png" alt="" class="icon-img"> +7 913 005-94-87</a>
+        <a href="https://t.me/DanilGlch" target="_blank"><img src="10.png" alt="" class="icon-img"> Telegram</a>
+        <a href="https://wa.me/79130059487" target="_blank"><img src="11.png" alt="" class="icon-img"> WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── FEEDBACK FORM ────────────────────────────────────── -->
+<section class="section feedback-section" id="feedback">
+  <div class="container">
+    <div class="feedback-inner">
+      <div class="feedback-text reveal">
+        <span class="eyebrow"><span class="eyebrow-dot"></span>ЗАЯВКА</span>
+        <h2>Оставьте заявку —<br>Ответим быстро</h2>
+        <p class="feedback-desc">Опишите задачу. Свяжемся в течение часа, обсудим детали и предложим решение под ваш бизнес.</p>
+      </div>
+      <div class="reveal">
+        <form class="feedback-form" id="feedbackForm">
+          <div class="form-group">
+            <label class="form-label">Ваше имя</label>
+            <input type="text" class="form-input" name="name" placeholder="Иван Иванов" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Телефон</label>
+            <input type="tel" class="form-input" name="phone" placeholder="+7 900 000-00-00" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Расскажите о задаче</label>
+            <textarea class="form-textarea" name="message" placeholder="Нужен сайт для кофейни, хотим запустить SEO..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn primary form-submit">Отправить заявку</button>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container footer-top-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">AVANTRAS</a>
+        <p>Разрабатываем сайты, запускаем SEO и контекстную рекламу для малого и среднего бизнеса.</p>
+        <div class="footer-socials">
+          <a href="https://wa.me/79130059487" target="_blank" class="footer-social-btn"><img src="11.png" alt="" class="icon-img"> WhatsApp</a>
+          <a href="https://t.me/DanilGlch" target="_blank" class="footer-social-btn"><img src="10.png" alt="" class="icon-img"> Telegram</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Навигация</div>
+        <div class="footer-links">
+          <a href="index.html">Главная</a>
+          <a href="services.html">Услуги</a>
+          <a href="cases.html">Кейсы</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Услуги</div>
+        <div class="footer-links">
+          <a href="services.html#landing">Лендинги</a>
+          <a href="services.html#multipage">Сайты услуг</a>
+          <a href="services.html#shop">Интернет-магазин</a>
+          <a href="services.html#corporate">Корпоративный</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Связаться</div>
+        <div class="footer-links">
+          <a href="tel:+79130059487"><img src="flickoplay (11).png" alt="" class="icon-img"> +7 913 005-94-87</a>
+          <a href="https://wa.me/79130059487" target="_blank"><img src="11.png" alt="" class="icon-img"> WhatsApp</a>
+          <a href="https://t.me/DanilGlch" target="_blank"><img src="10.png" alt="" class="icon-img"> Telegram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2025 AVANTRAS. Все права защищены.</p>
+      <p>Сайты, SEO и реклама для бизнеса</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
