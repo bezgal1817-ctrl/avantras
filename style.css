@@ -1179,6 +1179,10 @@ h1 {
     overflow-x: hidden;
   }
 
+  .section {
+    padding: 60px 0;
+  }
+
   .container {
     width: calc(100% - 28px);
   }
